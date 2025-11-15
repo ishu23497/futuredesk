@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero{
+  background-color: #511111;
+  color: rgb(209, 25, 25);
+  padding: 50px 20px;
+  align-items: center;
+}
+.section{
+  padding: 40px 20px;
+  
+  color: #8e1919;
+  align-items: center;
+}

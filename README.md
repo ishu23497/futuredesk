@@ -1,16 +1,91 @@
-# React + Vite
+🚀 FutureDesk – Modern SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive SaaS landing page built using React.js, Tailwind CSS, and Framer Motion with smooth animations, hover effects, and a clean UI.
+Perfect for showcasing modern web applications, services, and product features.
 
-Currently, two official plugins are available:
+<p align="center"> <img src="https://img.shields.io/badge/React-18-blue" /> <img src="https://img.shields.io/badge/Tailwind-CSS-38BDF8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Framer-Motion-purple" /> <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen" /> </p>
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Fully responsive layout
 
-## React Compiler
+🎞️ Smooth animations using Framer Motion
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🖼️ High-quality hero section with motion effects
 
-## Expanding the ESLint configuration
+🎯 Section-based clean structure (Hero, QuickCommerce, ZomatoSwiggy, MobileShowcase, etc.)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Modern UI with gradients
+
+🧩 Reusable components
+
+🚀 Fast performance with Vite
+
+🔧 Tech Stack
+
+React.js
+
+Vite
+
+Tailwind CSS
+
+Framer Motion
+
+JavaScript (ES6+)
+
+📁 Folder Structure
+futuredesk/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── QuickCommerceSection.jsx
+│   │   ├── ZomatoSwiggySection.jsx
+│   │   ├── MobileShowcase.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+└── tailwind.config.js
+
+⚙️ Installation & Setup
+1️⃣ Clone the repo
+git clone https://github.com/ishu23497/futuredesk.git
+cd futuredesk
+
+2️⃣ Install packages
+npm install
+
+3️⃣ Start development server
+npm run dev
+
+🚀 Build for Production
+npm run build
+
+
+
+📦 Deployment
+
+You can deploy using:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+Vite build output goes to:
+
+dist/
+
+🤝 Contributing
+
+Pull requests are welcome.
+For major changes, open an issue first.
+
+📜 License
+
+MIT License
